@@ -12,7 +12,7 @@ exports.config = {
     'platformName': 'Android',
     "os_version": "9.0",
     "device": "Samsung Galaxy S10",
-    "app": "bs://3a84c43eadfb632033ebec01a3b8d792c7cf3be6",
+    "app": "bs://<hash-id>",
     "browserstack.appium_version": "1.17.0",
   }],
 
