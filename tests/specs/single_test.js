@@ -5,14 +5,15 @@ describe('OMA-E2E-UC-003: Member', () => {
     // WebViewScreen.waitForWebViewContextLoaded();
     // WebViewScreen.switchToContext(CONTEXT_REF.WEBVIEW);
 
-    browser.context("WEBVIEW_com.oneclickbusiness.mobile")
+    browser.context("WEBVIEW_com.oneclickbusiness.mobile");
     const footer = $('.footer');
-    footer.waitForVisible()
+    footer.waitForVisible();
     const getStartedButton = footer.$('.button');
     getStartedButton.click();
     const emailInput = $('#email .native-input');
-    emailInput.waitForVisible()
+    emailInput.waitForVisible();
     // browser.isElementDisplayed()
-    browser.pause(10000)
+    browser.pause(10000);
+    emailInput.setValue("test@example.com");
   });
 });
